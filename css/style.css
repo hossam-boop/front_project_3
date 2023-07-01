@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+@font-face{
+    font-family: CinzelDecorative;
+    src: url(../webfont/CinzelDecorative-Regular.ttf);
+}
+
+
+
+.clr{
+    clear: both;
+}
+
+.home{
+    background-color: #F7F2E9;
+    
+}
+
+.fontCinzelDecorative{
+    font-family:CinzelDecorative;
+
+}
+
+.nav-link{
+    
+    font-size: large;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+
+.headoffers{
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.headoffers::after{
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    width:401px;
+    height: 1px;
+    top:50% ;
+    right: 0px;
+}
+
+.headoffers::before{
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    width:401px;
+    height: 1px;
+    top:50% ;
+    left: 0px;
+}
+
+.itme1{
+    position: relative;
+}
+
+.NewTop{
+    color: white;
+    width: 15%;
+    font-size: 13px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 94%;
+    right: 60%;
+}
+
+.wPhoto{
+    width: 60%;
+}
+
+.iconcloro{
+    color: rgba(43, 41, 43, 0.25);
+    
+}
+
+.endBorder::after{
+    content: "";
+    background-color: #F7F2E9;
+    position: absolute;
+    margin: 2%;
+    width: 35%;
+    height: 1px;
+    top:100% ;
+    left: 0%;
+
+}
+
+.end{
+    background-color: #2B292B;
+    color: #F7F2E9;
+}
+
+.icon2{
+    color: wheat;
+}
+
+.bg11{
+    background-color: rgba(172, 132, 53, 1);
+}
+
+
+
